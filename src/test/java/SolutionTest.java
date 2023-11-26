@@ -15,7 +15,7 @@ public class SolutionTest {
     }
 
     @Test
-    public void maxNumberOfBalloons() {
+    public void maxNumberOfBalloonsTest() {
         Solution solution = new Solution();
         String text = "loonbalxballpoon";
         int expected = 2;
@@ -26,7 +26,7 @@ public class SolutionTest {
     }
 
     @Test
-    public void numIdenticalPairs() {
+    public void numIdenticalPairsTest() {
         Solution solution = new Solution();
         int[] numbers = {1,2,3,1,1,3};
         int expected = 4;
